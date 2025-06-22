@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - Bean Boutique</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Bean Boutique</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="coffee.html">Coffee Selection</a></li>
+                <li><a href="equipment.html">Brewing Equipment</a></li>
+                <li><a href="events.html">Events & Workshops</a></li>
+                <li><a href="offers.html">Special Offers</a></li>
+                <li><a href="cart.html">Shopping Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="cart-hero">
+            <h1>Shopping Cart</h1>
+        </section>
+
+        <section id="cart-items">
+            <h2>Your Items</h2>
+            <div class="cart-item">
+                <img src="images/coffee1.jpg" alt="Ethiopian Yirgacheffe">
+                <div class="item-details">
+                    <h3>Ethiopian Yirgacheffe</h3>
+                    <p class="price">$18.99</p>
+                    <input type="number" value="1" min="1">
+                </div>
+                <div class="item-actions">
+                    <button class="btn-remove">Remove</button>
+                    <button class="btn-save">Save for Later</button>
+                </div>
+            </div>
+            <div class="cart-item">
+                <img src="images/french-press.jpg" alt="Classic French Press">
+                <div class="item-details">
+                    <h3>Classic French Press</h3>
+                    <p class="price">$29.99</p>
+                    <input type="number" value="1" min="1">
+                </div>
+                <div class="item-actions">
+                    <button class="btn-remove">Remove</button>
+                    <button class="btn-save">Save for Later</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="cart-summary">
+            <h2>Order Summary</h2>
+            <div class="summary-details">
+                <p>Subtotal: <span>$48.98</span></p>
+                <p>Shipping: <span>$5.00</span></p>
+                <p class="total">Total: <span>$53.98</span></p>
+            </div>
+            <button class="btn btn-checkout">Proceed to Checkout</button>
+        </section>
+
+        <section id="saved-items">
+            <h2>Saved for Later</h2>
+            <div class="saved-item">
+                <img src="images/coffee2.jpg" alt="Colombian Supremo">
+                <div class="item-details">
+                    <h3>Colombian Supremo</h3>
+                    <p class="price">$17.99</p>
+                </div>
+                <div class="item-actions">
+                    <button class="btn add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Bean Boutique. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 

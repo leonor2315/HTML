@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events & Workshops - Bean Boutique</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Bean Boutique</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="coffee.html">Coffee Selection</a></li>
+                <li><a href="equipment.html">Brewing Equipment</a></li>
+                <li><a href="events.html">Events & Workshops</a></li>
+                <li><a href="offers.html">Special Offers</a></li>
+                <li><a href="cart.html">Shopping Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="events-hero">
+            <h1>Events & Workshops</h1>
+            <p>Join us for a unique coffee experience.</p>
+        </section>
+
+        <section id="event-list">
+            <h2>Upcoming Events</h2>
+            <div class="event-item">
+                <h3>Coffee Tasting 101</h3>
+                <p class="event-date"><strong>Date:</strong> July 15, 2024</p>
+                <p class="event-description">Learn to identify different flavor notes and aromas in our most popular coffees. Perfect for beginners!</p>
+                <a href="#registration-form" class="btn">Register</a>
+            </div>
+            <div class="event-item">
+                <h3>Advanced Brewing Class</h3>
+                <p class="event-date"><strong>Date:</strong> July 22, 2024</p>
+                <p class="event-description">Take your brewing skills to the next level. We'll cover advanced techniques for pour-over and espresso.</p>
+                <a href="#registration-form" class="btn">Register</a>
+            </div>
+            <div class="event-item">
+                <h3>Meet the Roaster</h3>
+                <p class="event-date"><strong>Date:</strong> August 5, 2024</p>
+                <p class="event-description">An intimate evening with our head roaster. Discover the art and science behind roasting coffee beans.</p>
+                <a href="#registration-form" class="btn">Register</a>
+            </div>
+        </section>
+
+        <section id="map-section">
+            <h2>Our Location</h2>
+            <div class="plugin-placeholder" id="interactive-map">
+                <!-- Interactive Map plugin will be embedded here -->
+                <p>Interactive map showing our shop and event venues.</p>
+            </div>
+        </section>
+
+        <section id="registration-form">
+            <h2>Register for an Event</h2>
+            <form action="#" method="POST">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="firstname" required>
+
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lastname" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <input type="submit" value="Submit" class="btn">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Bean Boutique. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
