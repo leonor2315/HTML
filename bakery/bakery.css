@@ -1,0 +1,28 @@
+nav{
+    margin-bottom: 0px;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(75, 152, 75);
+    padding: 0px;
+    margin: 0px;
+}
+li{
+    float: left;
+    margin-top: 50px;
+    margin-right: 70px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.logo{
+    font-size: 27px;
+    margin-top: 2px;
+}
+.intro{
+    margin-top: 0px;
+    background-image: url(image/food2.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
