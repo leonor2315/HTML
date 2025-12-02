@@ -5,13 +5,13 @@ ul{
     list-style-type: none;
     overflow: hidden;
     background-color: rgb(75, 152, 75);
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 li{
     float: left;
     margin-top: 50px;
-    margin-right: 70px;
+    margin-right: 40px;
     margin-bottom: 20px;
     margin-left: 20px;
 }
@@ -21,8 +21,27 @@ li{
 }
 .intro{
     margin-top: 0px;
-    background-image: url(image/food2.jpeg) ;
+    background-image: url(image/back.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    text-align: left;
+    padding: 250px;
+    font-size: 1.3cm;
+    
+}
+body{
+    background-color: rgb(39, 37, 37);
+}
+.firstdiv{
+    border-color: rgb(66, 61, 61);
+    border-style: solid;
+}
+.christmas{
+    color: rgb(231, 213, 184);
+    font-size: 0.6cm;
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+    color: black;
 }

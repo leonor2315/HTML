@@ -1,0 +1,51 @@
+body{
+                background-color: rgb(73, 71, 71);
+                color: aliceblue;
+            }
+            .link{
+                text-decoration: none;
+                color: beige;
+                font-size: large;
+            }
+            .social{
+                font-size: larger;
+            }
+            .catch{
+                font-size: 0.7cm;
+                text-decoration: underline;
+            }
+            .link:hover{
+                color: blueviolet;
+            }
+            .firstpic{
+                margin-right: 20px;
+                height: 300px;
+                width: 230px;
+                margin-top: 5px;
+                float: right;
+            }
+            .padd{
+            }
+            .navbar{
+                padding: 5px;
+                text-align: center;
+                background-color: bisque;
+            }
+            .sectitle{
+                text-decoration: underline;
+            }
+            .order{
+                text-decoration: none;
+                color: aliceblue;
+            }
+            .order:hover{
+                color: blueviolet;
+            }
+            table, tr, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-color: azure;
+}
+.pic{
+    height: 30%;
+}
