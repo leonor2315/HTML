@@ -1,10 +1,11 @@
 body{
                 background-color: rgb(73, 71, 71);
                 color: aliceblue;
+                font-family: Ink free;
             }
             .link{
                 text-decoration: none;
-                color: beige;
+                color: rgb(228, 116, 208);
                 font-size: large;
             }
             .social{
@@ -13,6 +14,7 @@ body{
             .catch{
                 font-size: 0.7cm;
                 text-decoration: underline;
+                color: cornflowerblue;
             }
             .link:hover{
                 color: blueviolet;
@@ -24,15 +26,15 @@ body{
                 margin-top: 5px;
                 float: right;
             }
-            .padd{
-            }
+            
             .navbar{
                 padding: 5px;
                 text-align: center;
-                background-color: bisque;
+                background-color: rgb(146, 160, 197);
             }
             .sectitle{
                 text-decoration: underline;
+                color: cornflowerblue;
             }
             .order{
                 text-decoration: none;
@@ -47,5 +49,9 @@ body{
   border-color: azure;
 }
 .pic{
-    height: 30%;
+    width: 120px;
 }
+.content{
+    text-align: center;
+}
+
