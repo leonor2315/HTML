@@ -30,7 +30,7 @@ li{
     bottom: 7px;
     text-align: left;
     font-size: 1.6cm;
-    background: linear-gradient(to right, rgb(99, 15, 15),rgb(236, 236, 231));
+    background: linear-gradient(to bottom,rgb(236, 236, 231), rgb(99, 15, 15));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -41,6 +41,9 @@ body{
 .firstdiv{
     border-color: rgb(66, 61, 61);
     border-style: solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .christmas{
     color: rgb(231, 213, 184);
@@ -54,4 +57,18 @@ body{
 .back{
     width: 100%;
     height: 450px;
+}
+.recipes{
+    width: 250px;
+    height: 300px;
+    padding:5px ;
+
+}
+.item{
+border: solid rgb(79, 79, 79);
+margin: 5px;
+}
+.alt{
+    text-align: center;
+    color: beige;
 }

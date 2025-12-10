@@ -6,6 +6,19 @@
         <title>
             gtcu application forms
         </title>
+        <style>
+            body{
+                background-color: beige;
+                color: rgb(130, 69, 22);
+            }
+            .u{
+                margin: 3px;
+            }
+            .input{
+                margin: 3px;
+                width: 300px;
+            }
+        </style>
     </head>
     <body>
         <form>
@@ -14,44 +27,81 @@
                 <legend>
                     Personal Info
                 </legend>
-                <label for="firstname">First Name: </label>
-                <input type="text" id="firstname" placeholder="first name"><br>
-                <label for="middle">Middle Name: </label>
-                <input type="text" id="middle" placeholder="middle name"><br>
-                <label for="lastname">Last Name:</label>
-                <input type="text" id="lastname" placeholder="last name"><br>
-                <label for="option">Specify Identification card type:</label><br>
-                <input type="checkbox" placeholder="ghana" id="Ghana">
-                <label for="Ghana">Ghana Card</label>
-                <input type="checkbox" placeholder="ghana" id="voter">
-                <label for="voter">Voter Id</label>
-                <input type="checkbox" id="passport" placeholder="passport">
-                <label for="passport">Passport</label>
-                <input type="checkbox" id="nhis" placeholder="nhis">
-                <label for="nhis">NHIS</label><br>
-                <label for="number">ID number:</label>
-                <input type="text" id="number">
+                <label for="firstname" class="u">First Name: </label>
+                <input type="text" id="firstname" class="input" placeholder="first name">
+                <label for="middle" class="u">Middle Name: </label>
+                <input type="text" class="input" id="middle" placeholder="middle name">
+                <label for="lastname" class="u">Last Name:</label>
+                <input type="text" id="lastname" class="input" placeholder="last name"><br>
+                <label for="email" class="u">E-mail:</label>
+                <input type="email" id="email" class="input" placeholder="E-mail"><br>
+                <label for="option" class="u">Specify Identification card type:</label><br>
+                <input type="checkbox" class="u" placeholder="ghana" id="Ghana">
+                <label for="Ghana" class="u">Ghana Card</label>
+                <input type="checkbox" class="u" placeholder="ghana" id="voter">
+                <label for="voter" class="u">Voter Id</label>
+                <input type="checkbox" class="u" id="passport" placeholder="passport">
+                <label for="passport" class="u">Passport</label>
+                <input type="checkbox" class="u" id="nhis" placeholder="nhis">
+                <label for="nhis" class="u">NHIS</label><br>
+                <label for="number" class="u">ID number:</label>
+                <input type="text" class="input" id="number" placeholder="ID Number">
             </fieldset>
             <fieldset>
                 <legend>
                     Parents Info
                 </legend>
-                
+                <label for="Parent" class="u">Available Parent:</label><br>
+                <input type="checkbox" class="u" id="alive">
+                <label for="alive" class="u">Father</label>
+                <input type="checkbox" class="u" id="mom">
+                <label for="mom" class="u">Mother</label>
+                <input type="checkbox" class="u" id="both">
+                <label for="both" class="u">Both</label><br>
+                <label for="pname" class="u">Parent's name:</label>
+                <input type="text" placeholder="Parent's name" class="input" id="pname">
+                <label for="tel" class="u">Telephone No.</label>
+                <input type="tel" class="input" id="tel" placeholder="Telephone">
+                <label for="address" class="u">Postal Address:</label>
+                <input type="text" class="input" id="address" placeholder="Address">
             </fieldset>
             <fieldset>
                 <legend>
                     Academic Career
                 </legend>
+                <label for="high" class="u">Highest level of Education:</label><br>
+                <input type="checkbox" class="u" id="wacce">
+                <label for="wacce" class="u">WASCCE</label>
+                <input type="checkbox" class="u" id="under">
+                <label for="under" class="u">Undergraduate</label>
+                <input type="checkbox" class="u" id="post">
+                <label for="post" class="u">Postgraduate</label><br>
+                <label for="year" class="u">Year of Completion: </label>
+                <input type="date" class="input" placeholder="Year of Completion" id="year">
             </fieldset>
             <fieldset>
                 <legend>
                     Payment Details
                 </legend>
+                <label for="money" class="u">What type of Student are You?</label><br>
+                <input type="checkbox" id="regular" class="u">
+                <label for="regular" class="u">Regular</label>
+                <input type="checkbox" id="fee" class="u">
+                <label for="fee" class="u">Fee Paying</label>
+                <input type="checkbox" class="u" id="schorlaship">
+                <label for="schorlaship" class="u">Scholarship</label>
             </fieldset>
             <fieldset>
                 <legend>
                     Programmes
                 </legend>
+                <label for="area" class="u">What area would you Wish to study?</label><br>
+                <input type="checkbox" class="u" id="business">
+                <label for="business" class="u">Business School</label>
+                <input type="checkbox" class="u" id="focis">
+                <label for="focis" class="u">Faculty of Computing & Information Systems (FOCIS)</label>
+                <input type="checkbox" class="u" id="foe">
+                <label for="foe" class="u"> Faculty of Engineering(FOE)</label>
             </fieldset>
         </form>
     </body>
