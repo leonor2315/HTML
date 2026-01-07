@@ -1,89 +1,161 @@
-nav{
-    margin-bottom: 0px;
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-ul{
-    list-style-type: none;
-    overflow: hidden;
-    background-color: rgb(75, 152, 75);
-    padding: 0;
-    margin: 0;
-}
-li{
-    float: left;
-    margin-top: 50px;
-    margin-right: 40px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-}
-.logo{
-    font-size: 27px;
-    margin-top: 2px;
-}
-.image{
-    position: relative;
-    text-align: center;
-    color: black;
-}
-.bottom{
-    position: absolute;
-    left: 16px;
-    bottom: 7px;
-    text-align: left;
-    font-size: 1.6cm;
-    background: linear-gradient(to bottom,rgb(236, 236, 231), rgb(99, 15, 15));
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-}
-body{
-    background-color: rgb(39, 37, 37);
-}
-.firstdiv{
-    border-color: rgb(66, 61, 61);
-    border-style: solid;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-.christmas{
-    color: rgb(231, 213, 184);
-    font-size: 0.6cm;
-    text-align: center;
-}
-.link{
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
-}
-.link:hover{
-    color: aliceblue;
-}
-.back{
-    width: 100%;
-    height: 450px;
-}
-.recipes{
-    width: 250px;
-    height: 300px;
-    padding:5px ;
 
+/* Body */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #faf7f2; /* light cream background */
+  color: #333;
+  line-height: 1.6;
 }
-.item{
-border: solid rgb(79, 79, 79);
-margin: 5px;
-.item:hover{
-    border: solid rgb(101, 99, 99);
-    
+a{
+    text-decoration: none;
 }
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #f4d35e; /* warm golden yellow */
+  padding: 15px 0;
+  list-style-type: none;
 }
-.alt{
-    text-align: center;
-    color: beige;
+
+.navbar li {
+  margin: 0 15px;
 }
-.vagantext{
-    position: absolute;
-    left: 16px;
-    bottom: 7px;
-    text-align: right;
-    font-size: 1.6cm;
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #6a4e42; /* chocolate brown */
+}
+
+.link {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.link:hover,
+.link.active {
+  color: #e63946; /* appetizing red accent */
+}
+
+/* Hero Section (Category + Recipe Pages) */
+.image, .hero {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.back, .hero-img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+.bottom, .hero-text {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+  background: linear-gradient(to right, #f4d35e, #e63946);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Section Headings */
+.christmas {
+  color: #6a4e42; /* chocolate brown */
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 30px 0 15px;
+}
+
+/* Recipe Grid (Category Pages) */
+.recipes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.item {
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.item:hover {
+  transform: translateY(-5px);
+  border-color: #e63946;
+}
+
+.recipes {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 2px solid #f4d35e;
+}
+
+.alt {
+  padding: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Vegan Page Accent */
+.vegantext {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2a9d8f; /* fresh green */
+}
+
+/* Recipe Detail Pages */
+.recipe {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.recipe h2 {
+  color: #6a4e42;
+  margin-bottom: 10px;
+}
+
+.recipe ul, .recipe ol {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.recipe li {
+  margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+  background-color: #6a4e42; /* chocolate brown */
+  color: #faf7f2;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  font-size: 0.9rem;
 }
