@@ -53,6 +53,10 @@ body{
 .link{
     text-decoration: none;
     color: black;
+    cursor: pointer;
+}
+.link:hover{
+    color: aliceblue;
 }
 .back{
     width: 100%;
@@ -67,8 +71,19 @@ body{
 .item{
 border: solid rgb(79, 79, 79);
 margin: 5px;
+.item:hover{
+    border: solid rgb(101, 99, 99);
+    
+}
 }
 .alt{
     text-align: center;
     color: beige;
+}
+.vagantext{
+    position: absolute;
+    left: 16px;
+    bottom: 7px;
+    text-align: right;
+    font-size: 1.6cm;
 }
